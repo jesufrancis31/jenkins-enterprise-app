@@ -7,6 +7,18 @@
   <version>1.0</version>
   <name> Maven Enterprise Application</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://3.18.214.215:8081/jesu-repo/repository/maven-release1/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.18.214.215:8081/jesu-repo/repository/maven-snapshot1/</url>
+	    </snapshotRepository>
+	</distributionManagement>
   <modules>
     <module>MavenEnterpriseApp-ear</module>
     <module>MavenEnterpriseApp-web</module>
