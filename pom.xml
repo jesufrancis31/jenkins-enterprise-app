@@ -12,16 +12,4 @@
     <module>MavenEnterpriseApp-web</module>
   </modules>
 </project>
-<sonar.host.url>http://18.188.169.222:9000/</sonar.host.url>
-<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.18.214.215:8081/jesu-repo/repository/maven-release1/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.18.214.215:8081/jesu-repo/repository/maven-snapshot1/</url>
-	    </snapshotRepository>
-	</distributionManagement>
+
